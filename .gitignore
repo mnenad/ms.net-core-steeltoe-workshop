@@ -1,4 +1,11 @@
 #PROJECT FILE
+.IncrementalCache
+.SDKVersion
+dotnet-compile-csc.rsp
+dotnet-compile.assemblyinfo.cs
+dotnet-compile.rsp
+project.lock.json
+obj/
 .idea/
 # Backend
 .gradle
@@ -40,5 +47,5 @@ overridedb.*
 .factorypath
 dump.rdb
 transaction-logs
-project.lock.json
+
 
