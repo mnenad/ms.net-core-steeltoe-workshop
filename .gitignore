@@ -40,4 +40,5 @@ overridedb.*
 .factorypath
 dump.rdb
 transaction-logs
+project.lock.json
 
