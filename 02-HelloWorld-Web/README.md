@@ -11,8 +11,12 @@ Modify the dependencies section in project.json to look like this:
   using Microsoft.AspNetCore.Hosting;
   using Microsoft.AspNetCore.Builder;
   using Microsoft.Extensions.Configuration;
-
-  Replace Console.WriteLine("Hello World!"); with the folloiwng:
+  
+  Replace console name space with the following:
+  
+  namespace WebApplication.hw
+  
+  Replace Console.WriteLine("Hello World!"); with the following:
 
   var host = new WebHostBuilder()
  	     .UseKestrel()
@@ -31,7 +35,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 
-namespace StatlerWaldorfCorp.Grabbymon {
+namespace namespace WebApplication.hw {
     public class Startup
     {
         public void Configure(IApplicationBuilder app)
